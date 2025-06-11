@@ -52,12 +52,12 @@ You can override any of them with flags, eg, `--n_diffusion_steps 100`.
 ```
 python train_values.py --dataset halfcheetah-medium-expert-v2
 ```
-See [locomotion:values](main/main/config/locomotion.py#L67-L108) for the corresponding default hyperparameters.
+See [locomotion:values](main/config/locomotion.py#L67-L108) for the corresponding default hyperparameters.
 
 
 3. Plan using your newly-trained models with the same command as in the pretrained planning section, simply replacing the logbase to point to your new models:
 ```
 python plan_guided.py --dataset halfcheetah-medium-expert-v2 --logbase logs
 ```
-See [locomotion:plans](main/main/config/locomotion.py#L110-L149) for the corresponding default hyperparameters.
+See [locomotion:plans](main/config/locomotion.py#L110-L149) for the corresponding default hyperparameters.
 
